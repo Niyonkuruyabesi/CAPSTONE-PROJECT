@@ -221,7 +221,7 @@ python src/main_analysis.py
 ![Temperature Histogram](screenshots/phyton/temp_distribution.png)
 *Temperature distribution patterns in Karnataka*
 
-![ Rainfall boxplot](screenshots/python/rain_boxplot.png)
+![ Rainfall boxplot](screenshots/phyton/rain_boxplot.png)
 *Box plot showing rainfall distribution*
 
 
