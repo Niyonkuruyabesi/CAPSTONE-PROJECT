@@ -7,7 +7,7 @@ AGRICULTURE YIELDS
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
 - [Dataset Information](#dataset-information)
@@ -23,7 +23,7 @@ AGRICULTURE YIELDS
 
 ---
 
-## 🌾 Project Overview
+##  Project Overview
 
 This capstone project focuses on **Agricultural Data Analytics** in Karnataka, India, specifically analyzing crop yields in the Mangalore region. Using Big Data Analytics techniques, we aim to predict crop yields based on environmental factors, soil conditions, and farming practices to help optimize agricultural productivity and economic outcomes for farmers.
 
@@ -34,7 +34,7 @@ This capstone project focuses on **Agricultural Data Analytics** in Karnataka, I
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 **"Can we predict optimal crop yields and market prices for farmers in Karnataka based on environmental conditions, soil types, and farming practices to maximize agricultural productivity and economic returns?"**
 
@@ -46,7 +46,7 @@ This project addresses the critical challenge of:
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 - **Dataset Title:** Agriculture dataset Karnataka
 - **Source:** [Mendeley Data Repository](https://data.mendeley.com/datasets/nfj84km5fz/1)
@@ -73,7 +73,7 @@ This project addresses the critical challenge of:
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Phase 1: Data Preprocessing & Cleaning
 1. **Data Loading:** Import dataset using pandas
@@ -164,7 +164,7 @@ Agriculture-Analytics-Capstone/
 
 ---
 
-## 🛠 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -194,12 +194,12 @@ seaborn>=0.11.0
 scikit-learn>=1.2.0
 plotly>=5.15.0
 jupyter>=1.0.0
-openpyxl>=3.1.0
+
 ```
 
 ---
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### 1. Data Analysis (Python)
 ```bash
@@ -231,46 +231,46 @@ python src/main_analysis.py
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### Python Analytics Features
-- **🧹 Data Cleaning:** Comprehensive preprocessing pipeline
-- **📈 EDA Visualizations:** Interactive plots and statistical analysis
-- **🤖 Machine Learning Models:** 
+- ** Data Cleaning:** Comprehensive preprocessing pipeline
+- ** EDA Visualizations:** Interactive plots and statistical analysis
+- ** Machine Learning Models:** 
   - Crop yield prediction (Regression)
   - Farmer clustering (Unsupervised Learning)
   - Price forecasting (Time Series)
-- **📊 Statistical Analysis:** Correlation and significance testing
-- **🔧 Custom Functions:** Modular, reusable code components
+- ** Statistical Analysis:** Correlation and significance testing
+- ** Custom Functions:** Modular, reusable code components
 
 ### Power BI Dashboard Features
-- **📋 Executive Summary:** Key KPIs and metrics
-- **🌡️ Environmental Analysis:** Temperature, rainfall, and humidity trends
-- **🌾 Crop Performance:** Yield analysis by crop type and season
-- **💰 Economic Insights:** Price trends and profitability analysis
-- **🗺️ Geographic Visualization:** Regional performance mapping
-- **🔍 Interactive Filters:** Dynamic data exploration
-- **📊 Advanced Analytics:** 
+- ** Executive Summary:** Key KPIs and metrics
+- ** Environmental Analysis:** Temperature, rainfall, and humidity trends
+- ** Crop Performance:** Yield analysis by crop type and season
+- ** Economic Insights:** Price trends and profitability analysis
+- ** Geographic Visualization:** Regional performance mapping
+- ** Interactive Filters:** Dynamic data exploration
+- ** Advanced Analytics:** 
   - DAX calculations for complex metrics
   - What-if scenarios for planning
   - Predictive indicators
 
 ### Innovation Features
-- **🧠 Ensemble Models:** Combining multiple ML algorithms
-- **📱 Mobile-Responsive Dashboard:** Optimized for all devices
-- **🔄 Real-time Data Integration:** Automated data refresh
-- **🎯 Recommendation Engine:** Personalized farming suggestions
+- ** Ensemble Models:** Combining multiple ML algorithms
+- ** Mobile-Responsive Dashboard:** Optimized for all devices
+- ** Real-time Data Integration:** Automated data refresh
+- ** Recommendation Engine:** Personalized farming suggestions
 
 ---
 
-## 📈 Results & Insights
+##  Results & Insights
 
 ### Key Findings
-- **🌧️ Rainfall Impact:** Optimal rainfall range of [X-Y mm] maximizes yields
-- **🌡️ Temperature Correlation:** Strong positive correlation between temperature and coconut yields
-- **🚰 Irrigation Efficiency:** Drip irrigation shows 25% higher productivity
-- **📅 Seasonal Patterns:** Kharif season demonstrates highest profitability
-- **💹 Price Prediction:** Model achieves [X]% accuracy in price forecasting
+- ** Rainfall Impact:** Optimal rainfall range of [X-Y mm] maximizes yields
+- ** Temperature Correlation:** Strong positive correlation between temperature and coconut yields
+- ** Irrigation Efficiency:** Drip irrigation shows 25% higher productivity
+- ** Seasonal Patterns:** Kharif season demonstrates highest profitability
+- ** Price Prediction:** Model achieves [X]% accuracy in price forecasting
 
 ### Model Performance
 - **Crop Yield Prediction:** R² = 0.85, RMSE = [value]
@@ -279,15 +279,15 @@ python src/main_analysis.py
 
 ---
 
-## 📸 Screenshots & Visualizations
+##  Screenshots & Visualizations
 
 ### Python Analysis Screenshots
 
 #### Data Distribution Analysis
-![Rainfall Distribution](results/screenshots/python/rainfall_distribution.png)
+![Rainfall Distribution](/screenshots/rainfall_distribution.png)
 *Distribution of rainfall across different regions and seasons*
 
-![Temperature Histogram](results/screenshots/python/temperature_histogram.png)
+![Temperature Histogram](screenshots/temperature_histogram.png)
 *Temperature distribution patterns in Karnataka*
 
 ![Crop Yield Distribution](results/screenshots/python/crop_yield_boxplot.png)
