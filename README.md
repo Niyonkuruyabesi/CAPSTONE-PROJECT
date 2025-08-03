@@ -174,7 +174,7 @@ Agriculture-Analytics-Capstone/
 ### Python Environment Setup
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/Agriculture-Analytics-Capstone.git
+git clone https://github.com/[Niyonkuruyabesi]/Agriculture-Analytics-Capstone.git
 cd Agriculture-Analytics-Capstone
 
 # Create virtual environment
