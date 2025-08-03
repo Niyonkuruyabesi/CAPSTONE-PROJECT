@@ -284,14 +284,14 @@ python src/main_analysis.py
 ### Python Analysis Screenshots
 
 #### Data Distribution Analysis
-![Rainfall Distribution](/screenshots/rainfall_distribution.png)
+![Rainfall Distribution](/screenshots/phyton/rain_distribution.png)
 *Distribution of rainfall across different regions and seasons*
 
-![Temperature Histogram](screenshots/temperature_histogram.png)
+![Temperature Histogram](screenshots/phyton/temp_distribution.png)
 *Temperature distribution patterns in Karnataka*
 
-![Crop Yield Distribution](results/screenshots/python/crop_yield_boxplot.png)
-*Box plot showing crop yield variations by soil type*
+![ Rainfall boxplot](screenshots/python/rain_boxplot.png)
+*Box plot showing rainfall distribution*
 
 #### Correlation Analysis
 ![Correlation Heatmap](results/screenshots/python/correlation_heatmap.png)
