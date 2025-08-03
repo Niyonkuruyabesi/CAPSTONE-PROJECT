@@ -1,6 +1,5 @@
 # CAPSTONE-PROJECT
 AGRICULTURE YIELDS 
-
 # Agricultural Crop Yield Prediction and Analysis in Karnataka
 ## INSY 8413 - Introduction to Big Data Analytics Capstone Project
 
@@ -131,11 +130,33 @@ Agriculture-Analytics-Capstone/
 │   └── visualization_helpers.py
 ├── dashboard/
 │   ├── agriculture_dashboard.pbix
-│   └── dashboard_screenshots/
+│   └── screenshots/
+│       ├── overview.png
+│       ├── environmental.png
+│       ├── crop_analysis.png
+│       ├── geographic_map.png
+│       └── interactive_filters.png
 ├── results/
 │   ├── model_performance/
+│   │   ├── model_metrics.csv
+│   │   └── evaluation_report.pdf
 │   ├── predictions/
-│   └── insights_summary.md
+│   │   └── crop_yield_predictions.csv
+│   ├── insights_summary.md
+│   └── screenshots/
+│       └── python/
+│           ├── rainfall_distribution.png
+│           ├── temperature_histogram.png
+│           ├── crop_yield_boxplot.png
+│           ├── correlation_heatmap.png
+│           ├── scatter_matrix.png
+│           ├── environmental_correlation.png
+│           ├── model_performance.png
+│           ├── prediction_vs_actual.png
+│           ├── feature_importance.png
+│           ├── seasonal_trends.png
+│           ├── irrigation_comparison.png
+│           └── price_yield_relationship.png
 ├── presentation/
 │   └── capstone_presentation.pptx
 └── requirements.txt
@@ -258,7 +279,51 @@ python src/main_analysis.py
 
 ---
 
-## 📸 Dashboard Screenshots
+## 📸 Screenshots & Visualizations
+
+### Python Analysis Screenshots
+
+#### Data Distribution Analysis
+![Rainfall Distribution](results/screenshots/python/rainfall_distribution.png)
+*Distribution of rainfall across different regions and seasons*
+
+![Temperature Histogram](results/screenshots/python/temperature_histogram.png)
+*Temperature distribution patterns in Karnataka*
+
+![Crop Yield Distribution](results/screenshots/python/crop_yield_boxplot.png)
+*Box plot showing crop yield variations by soil type*
+
+#### Correlation Analysis
+![Correlation Heatmap](results/screenshots/python/correlation_heatmap.png)
+*Correlation matrix showing relationships between environmental factors and crop yields*
+
+![Scatter Plot Matrix](results/screenshots/python/scatter_matrix.png)
+*Scatter plot matrix for key variables (Temperature, Rainfall, Humidity vs Yield)*
+
+![Environmental Correlation](results/screenshots/python/environmental_correlation.png)
+*Detailed correlation analysis between weather patterns and agricultural output*
+
+#### Machine Learning Results
+![Model Performance](results/screenshots/python/model_performance.png)
+*Comparison of different ML models (Linear Regression, Random Forest, etc.)*
+
+![Prediction vs Actual](results/screenshots/python/prediction_vs_actual.png)
+*Predicted vs Actual crop yields scatter plot*
+
+![Feature Importance](results/screenshots/python/feature_importance.png)
+*Feature importance ranking from Random Forest model*
+
+#### Exploratory Data Analysis
+![Seasonal Trends](results/screenshots/python/seasonal_trends.png)
+*Line plot showing crop yield trends across different seasons*
+
+![Irrigation Impact](results/screenshots/python/irrigation_comparison.png)
+*Bar chart comparing yields across different irrigation methods*
+
+![Price vs Yield Analysis](results/screenshots/python/price_yield_relationship.png)
+*Scatter plot showing relationship between market prices and crop yields*
+
+### Power BI Dashboard Screenshots
 
 ![Dashboard Overview](dashboard/screenshots/overview.png)
 *Main dashboard showing key agricultural KPIs*
@@ -269,9 +334,72 @@ python src/main_analysis.py
 ![Crop Performance](dashboard/screenshots/crop_analysis.png)
 *Detailed crop performance analysis*
 
----
+![Geographic Visualization](dashboard/screenshots/geographic_map.png)
+*Geographic distribution of crop productivity across Karnataka*
 
-## 🔮 Future Work
+![Interactive Filters](dashboard/screenshots/interactive_filters.png)
+*Dashboard showing interactive slicers and filters in action*
+
+## 📊 Screenshot Organization Guide
+
+### Where to Place Your Screenshots
+
+#### Python Analysis Screenshots Location:
+Save all your Python analysis visualizations in: `results/screenshots/python/`
+
+**Recommended Screenshots to Include:**
+
+**Distribution Analysis Screenshots:**
+- `rainfall_distribution.png` - Histogram showing rainfall patterns
+- `temperature_histogram.png` - Temperature distribution across regions  
+- `crop_yield_boxplot.png` - Box plots of yields by different categories
+- `humidity_distribution.png` - Humidity level distributions
+
+**Correlation Analysis Screenshots:**
+- `correlation_heatmap.png` - Main correlation matrix between all variables
+- `scatter_matrix.png` - Pair plots of key environmental variables
+- `environmental_correlation.png` - Detailed weather vs yield correlations
+- `price_yield_correlation.png` - Market price and yield relationship analysis
+
+**Exploratory Data Analysis Screenshots:**
+- `seasonal_trends.png` - Crop performance across different seasons
+- `irrigation_comparison.png` - Yield comparison by irrigation methods
+- `soil_type_analysis.png` - Performance analysis by soil types
+- `model_performance.png` - Machine learning model comparison results
+- `prediction_vs_actual.png` - Model accuracy visualization
+- `feature_importance.png` - Most important factors affecting yields
+
+#### Power BI Dashboard Screenshots Location:
+Save all your dashboard screenshots in: `dashboard/screenshots/`
+
+**Required Dashboard Screenshots:**
+- `overview.png` - Main dashboard with key KPIs and summary
+- `environmental.png` - Environmental factors analysis page
+- `crop_analysis.png` - Detailed crop performance analysis
+- `geographic_map.png` - Regional/geographic visualization
+- `interactive_filters.png` - Dashboard showing filters and slicers in use
+
+### Screenshot File Organization:
+```
+results/screenshots/python/
+├── correlation_heatmap.png          # Main correlation analysis
+├── rainfall_distribution.png        # Rainfall patterns
+├── temperature_histogram.png        # Temperature analysis
+├── crop_yield_boxplot.png          # Yield distributions
+├── scatter_matrix.png              # Variable relationships
+├── seasonal_trends.png             # Time-based analysis
+├── model_performance.png           # ML results
+├── prediction_vs_actual.png        # Model accuracy
+├── feature_importance.png          # Key factors analysis
+└── irrigation_comparison.png       # Farming method comparison
+
+dashboard/screenshots/
+├── overview.png                    # Main dashboard view
+├── environmental.png               # Weather analysis page
+├── crop_analysis.png              # Crop performance page
+├── geographic_map.png              # Geographic insights
+└── interactive_filters.png        # Interactive features demo
+```
 
 ### Technical Enhancements
 - **🌐 IoT Integration:** Real-time sensor data incorporation
